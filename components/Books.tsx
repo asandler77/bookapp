@@ -7,7 +7,6 @@ import Header from './Header';
 export default () => {
   return (
     <SafeAreaView style={styles.container}>
-      {/*<Header books={BOOKS}/>*/}
       <Carousel books={BOOKS} />
     </SafeAreaView>
   );
